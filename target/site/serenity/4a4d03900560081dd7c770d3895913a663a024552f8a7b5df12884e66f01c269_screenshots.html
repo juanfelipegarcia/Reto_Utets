@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="28446bd4f24d36e0e88cbbb2677d84f351296ab2596de4177e6bcfb365cf96a6.html">Choucair Challenge</a></span>
+                > <span class="truncate-60"><a
+                    href="4a4d03900560081dd7c770d3895913a663a024552f8a7b5df12884e66f01c269.html">Registration on the Utest website </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2021 21:18</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Choucair Challenge </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to learn how to automate scripts.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registration on the Utest website
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9320ee425580c19951ae99b63bf897f7866e8e65a232e8115ad79a16e330a3f2.png" title=" Given than Felipe wants to register on the Utest website" width="1366"/>
+                <img src="9320ee425580c19951ae99b63bf897f7866e8e65a232e8115ad79a16e330a3f2.png" title=" Felipe open up" width="1366"/>
+                <img src="9320ee425580c19951ae99b63bf897f7866e8e65a232e8115ad79a16e330a3f2.png" title=" Felipe opens the Reto choucair page" width="1366"/>
+                <img src="9320ee425580c19951ae99b63bf897f7866e8e65a232e8115ad79a16e330a3f2.png" title=" Felipe open up (completed)" width="1366"/>
+                <img src="9320ee425580c19951ae99b63bf897f7866e8e65a232e8115ad79a16e330a3f2.png" title=" Given than Felipe wants to register on the Utest website (completed)" width="1366"/>
+                <img src="9ecfbdfa9fdd4f6fe34cb7e0a72196c6d3ff671ca8dcc61cd468af2568abf55a.png" title=" When he finds the website registration form" width="1366"/>
+                <img src="9ecfbdfa9fdd4f6fe34cb7e0a72196c6d3ff671ca8dcc61cd468af2568abf55a.png" title=" Felipe join today" width="1366"/>
+                <img src="9ecfbdfa9fdd4f6fe34cb7e0a72196c6d3ff671ca8dcc61cd468af2568abf55a.png" title=" Felipe clicks on button for to do registration page" width="1366"/>
+                <img src="9ecfbdfa9fdd4f6fe34cb7e0a72196c6d3ff671ca8dcc61cd468af2568abf55a.png" title=" Felipe join today (completed)" width="1366"/>
+                <img src="809a8f0b8e129db41033455cd19685c4d842d92f0f17fe3a71ba9083dbeaf104.png" title=" When he finds the website registration form (completed)" width="1366"/>
+                <img src="04d6abda8fc8cc9f3c727a94c45d897e6da04d5f5305b32b299edcd5bf1fb898.png" title=" Then he registers on the UTest website
+| strName | strLastName | strEmail | strMonth | strDay | strYear | strLanguages | strCity | strZipCode | strCountry | strCreatePassword | strConfirmPassword |
+| Juan Felipe | Garcia Duque | jgarciadd@gmail.com | number:2 | number:14 | number:1980 | Spanish | Sabaneta | 0510054 | Colombia | JuanGarcia1980 | JuanGarcia1980 |" width="1366"/>
+                <img src="04d6abda8fc8cc9f3c727a94c45d897e6da04d5f5305b32b299edcd5bf1fb898.png" title=" Felipe step1 registration" width="1366"/>
+                <img src="04d6abda8fc8cc9f3c727a94c45d897e6da04d5f5305b32b299edcd5bf1fb898.png" title=" Felipe enters 'Juan Felipe' into where do we write the first name" width="1366"/>
+                <img src="a57f55895757d47302dd330508e32d48732f73a70b4cba430ff2679f30e9d7b4.png" title=" Felipe enters 'Garcia Duque' into where do we write the last name" width="1366"/>
+                <img src="c8135def1aec7ca8713b3bfbfdfdc2ca2526e9f4be59390c8ca5037df9fbd614.png" title=" Felipe enters 'jgarciadd@gmail.com' into where do we write the email" width="1366"/>
+                <img src="62c278c0c8adf434dd3bddadce9de1ab79b9030fd70ec68acdfc654dca4db43a.png" title=" Felipe clicks on where do we write the birthMonth" width="1366"/>
+                <img src="cf2232049ac46068f1583bad71ad4021b703eb5ea6344ed7c2ffe958b887118b.png" title=" Felipe selects number:2 in where do we write the birthMonth" width="1366"/>
+                <img src="900fb7ebf948d3e69d726b01884f4120e4a05314ccfef1f5fb7ea45bf9b861e4.png" title=" Felipe clicks on where do we write the birthDay" width="1366"/>
+                <img src="7350235f6c1435b45dc8e442c2973ed61f32740b3f1c142800104e0e994c6d68.png" title=" Felipe selects number:14 in where do we write the birthDay" width="1366"/>
+                <img src="ce7535227157c2dfe9bc6f1a43d92d0c08df22368c8889f64118178a0f200e0e.png" title=" Felipe clicks on where do we write the birthYear" width="1366"/>
+                <img src="dba3344d1160d085923b67705bf83acd7760f6dd87f66de4a11b79c443070966.png" title=" Felipe selects number:1980 in where do we write the birthYear" width="1366"/>
+                <img src="78b328806b8d14906d2c93c82a701a118d0cd6d21574db7c2825ca056a02d09b.png" title=" Felipe clicks on where do we write the languages" width="1366"/>
+                <img src="a5605bbf0f6e3a5897f1c026fa4900e13b81f69a0d7cc1b5758c5479f80cc076.png" title=" Felipe enters 'Spanish' into where do we write the languages" width="1366"/>
+                <img src="2364f832ea6b0d40f9a1e6dd4241fcd971142d2f40d42d94596c562ca347597f.png" title=" Felipe clicks on where do we go the second step" width="1366"/>
+                <img src="6b2833d021e6c374493655f9bb393fd655af11160b21e68b97b1831bbd5c2fca.png" title=" Felipe clicks on where do we go the second step" width="1366"/>
+                <img src="6b2833d021e6c374493655f9bb393fd655af11160b21e68b97b1831bbd5c2fca.png" title=" Felipe step1 registration (completed)" width="1366"/>
+                <img src="b15dd7c5b2e9d51bd013233b4957434be3561c0173298e7a9bb7b592c6a4581f.png" title=" Felipe step2 registration" width="1366"/>
+                <img src="b15dd7c5b2e9d51bd013233b4957434be3561c0173298e7a9bb7b592c6a4581f.png" title=" Felipe clicks on where do we write the City" width="1366"/>
+                <img src="eb4f12a7897d961261fa7e2cc4d34a6454f99721ab3cd43d50ca0cf08c7f7024.png" title=" Felipe clears field where do we write the City" width="1366"/>
+                <img src="3c32bb13731e7ab0d89a66d051a9064680ab4df2b2539de4c9d32d0a6ac2ddcf.png" title=" Felipe enters 'Sabaneta' into where do we write the City" width="1366"/>
+                <img src="bc788ccd94433cef468a83f810ac22827a35725d07bbf7212395c20e809fc971.png" title=" Felipe clicks on where do we go the second step" width="1366"/>
+                <img src="eca48a8c8aa575e8ae7817b646fe1407a4c8f21ee1072d4771f6a9b9829a82da.png" title=" Felipe clicks on where do we write the zip postal code" width="1366"/>
+                <img src="63d4316e6fdf158e8ffe513c5b6a32f2794ba90c060ead2a7dc9432b05b361c3.png" title=" Felipe clears field where do we write the zip postal code" width="1366"/>
+                <img src="a7044f9d081b54eb5bddd869c6bc880861d61ff43ce19a95f5bc9b814e3f24e9.png" title=" Felipe enters '0510054' into where do we write the zip postal code" width="1366"/>
+                <img src="e14877915738526b95b68a52074c8375a5825f7b83328516b71c39c168c17bce.png" title=" Felipe clicks on where do we write the CONTRY name" width="1366"/>
+                <img src="93bbeed00a89482e5c38dfa2e2c752ca88bdcda99c352036f3a3b06a825896e4.png" title=" Felipe enters 'Colombia' into where do we write the CONTRY name" width="1366"/>
+                <img src="5a498bf3a4fc050f7c15e56f9f7dddbbb40f4fd0d613c831a1cf5644251aa979.png" title=" Felipe clicks on where do we go the 3&Acirc;&deg; step" width="1366"/>
+                <img src="5a498bf3a4fc050f7c15e56f9f7dddbbb40f4fd0d613c831a1cf5644251aa979.png" title=" Felipe step2 registration (completed)" width="1366"/>
+                <img src="0d0e97825a5cf83791d9826dae7401d26f458564d43b36728df6ba326f6a9d38.png" title=" Felipe step3 registration" width="1366"/>
+                <img src="0d0e97825a5cf83791d9826dae7401d26f458564d43b36728df6ba326f6a9d38.png" title=" Felipe clicks on where do we go the 4&Acirc;&deg; step" width="1366"/>
+                <img src="0d0e97825a5cf83791d9826dae7401d26f458564d43b36728df6ba326f6a9d38.png" title=" Felipe step3 registration (completed)" width="1366"/>
+                <img src="8c58bba2b42b75cdd093712df51986c30dc32ee5df3ef61c6f82b61f2f79976b.png" title=" Felipe step4 registration" width="1366"/>
+                <img src="8c58bba2b42b75cdd093712df51986c30dc32ee5df3ef61c6f82b61f2f79976b.png" title=" Felipe enters 'JuanGarcia1980' into where do we create to password" width="1366"/>
+                <img src="7d4419f0599cc7baac1ff3bdc179754a2901eb8d823edce88501604e54e30b4d.png" title=" Felipe clicks on where do we  confirm to password" width="1366"/>
+                <img src="2188d28a0c81e4ee68f2219c7025ed89fc08f6982df8462f452883eeeffa248f.png" title=" Felipe enters 'JuanGarcia1980' into where do we  confirm to password" width="1366"/>
+                <img src="f42724627c24455790f879b9d2ad4589e052e6a8c51b90fd737a931cdad076b6.png" title=" Felipe clicks on where do we  click in STAY INFORMED" width="1366"/>
+                <img src="b15127159bb7ffb80430bdf1d9dea8d1befb416fab010b0108e080076f4ef024.png" title=" Felipe clicks on where do we  click in accept terms" width="1366"/>
+                <img src="b40dd81c73e68f15d8b28abae9e925c0e3e1f7bf45c7bb807026de683c5392fc.png" title=" Felipe clicks on where do we  accept privacy" width="1366"/>
+                <img src="c859b3ab5778e5ef8672e9bf38cde8965cd7ae6f909f3b64cbbeb1c9783f2007.png" title=" Felipe clicks on where do we go Commplete the register" width="1366"/>
+                <img src="c859b3ab5778e5ef8672e9bf38cde8965cd7ae6f909f3b64cbbeb1c9783f2007.png" title=" Felipe step4 registration (completed)" width="1366"/>
+                <img src="c859b3ab5778e5ef8672e9bf38cde8965cd7ae6f909f3b64cbbeb1c9783f2007.png" title=" Then he registers on the UTest website
+| strName | strLastName | strEmail | strMonth | strDay | strYear | strLanguages | strCity | strZipCode | strCountry | strCreatePassword | strConfirmPassword |
+| Juan Felipe | Garcia Duque | jgarciadd@gmail.com | number:2 | number:14 | number:1980 | Spanish | Sabaneta | 0510054 | Colombia | JuanGarcia1980 | JuanGarcia1980 | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
